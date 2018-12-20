@@ -1,0 +1,79 @@
+.banner-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagens/contato.jpg);
+    background-position: center 20%;
+    min-height: 28rem;
+}
+
+.contato__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 86rem;
+}
+
+.contato__mapa {
+    width: 45%;
+}
+
+.contato__form {
+    display: flex;
+    flex-flow: column;
+    width: 45%;
+}
+
+.contato__form h2 {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+form input,
+form textarea {
+    margin: 0.5rem 0;
+    padding: 0.4rem;
+    font: inherit;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    font: inherit;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1rem 0 0;
+    font-weight: bold;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+}
+
+form button:active,
+form button:hover {
+  cursor: pointer;
+  background-color: #ff795b;
+  color: white;
+}
+
+@media (max-width: 47rem) {
+    .contato__container {
+        flex-flow: column;
+    }
+    .contato__mapa {
+        margin-bottom: 2rem;
+        width: 100%;
+        height: 24rem;
+    }
+    .contato__form {
+        width: 100%;
+    }
+}

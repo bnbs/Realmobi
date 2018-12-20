@@ -1,0 +1,98 @@
+.banner-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../imagens/pedestre.jpg);
+    background-position: center 20%;
+    min-height: 28rem;
+}
+
+.produtos__section {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-flow: column;
+}
+
+.produtos__title {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 1rem;
+    font-size: 2rem;
+}
+
+.produtos__container {
+    display: flex;
+    margin: auto;
+    max-width: 86rem;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 20px -4px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+    width: 33%;
+}
+
+.produto a {
+    text-decoration: none;
+}
+
+.produto__banner--container {
+    height: 15rem;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.banner__grupo-focais {
+    background-image: url(../imagens/pedestres_faixa.jpg);
+}
+
+.banner__smart-cards {
+    background-image: url(../imagens/smart-cards-e-impressoras/smart-cards-e-impressora.jpg)
+}
+
+.banner__sistema-fixacao {
+    background-image: url(../imagens/sistema-fixacao-semaforico/Suporte-Simples.jpg);
+}
+
+.produto__info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.produto__info h2 {
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+.produto__info ul {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+}
+
+.produto__info li {
+    list-style: none;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+@media (max-width: 48rem) {
+    .produtos__container {
+        flex-flow: column;
+        margin: 0;
+        align-items: center;
+    }
+    .produto {
+        width: 100%;
+    }
+}
+
+@media (max-width: 32.6rem) {
+    .banner-image {
+        display: none;
+    }
+}

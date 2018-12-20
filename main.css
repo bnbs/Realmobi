@@ -1,0 +1,136 @@
+.banner-image {
+  background-image: url(./imagens/foto-semaforo.jpg);
+  min-height: 28rem;
+  opacity: 0.8;
+}
+
+.empresa__section {
+  background-color: #fafafa;
+}
+
+.empresa__sobre--info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  max-width: 60rem;
+}
+
+.empresa__sobre--info p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.empresa__sobre--info a,
+.slick__section a {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  text-align: center;
+}
+
+.empresa__sobre--info a:active,
+.empresa__sobre--info a:hover,
+.slick__section a:active,
+.slick__section a:hover,
+form button:active,
+form button:hover {
+  cursor: pointer;
+  background-color: #ff795b;
+  color: white;
+}
+
+.servicos__section {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-flow: column;
+}
+
+.servicos__title {
+  text-align: center;
+  margin: 0;
+  padding: 0 0 1rem;
+  font-size: 2rem;
+}
+
+.servicos__container {
+  display: flex;
+  margin: auto;
+  max-width: 86rem;
+}
+
+.servico {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 5px 5px 20px -4px rgba(0,0,0,0.5);
+  margin: 1rem;
+  width: 33%;
+}
+
+.servicos__banner--container {
+  height: 15rem;
+  background-position: center center;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.banner__pedestres {
+  background-image: url(imagens/pedestres_faixa.jpg);
+}
+
+.banner__bilhetagem {
+  background-image: url(imagens/bilhetagem.jpg);
+}
+
+.banner__reconhecimento-facial {
+  background-image: url(imagens/reconhecimento-facial.jpg);
+}
+
+.servico__info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.servico__info h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.servico__info p {
+  text-align: justify;
+}
+
+.slick__slider {
+  flex-flow: column;
+  min-height: 22rem;
+}
+
+.slick__slider img {
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.slick__slider h2 {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  margin: 0;
+}
+
+@media (max-width: 47rem) {
+  .servicos__container {
+    flex-flow: column;
+    align-items: center;
+  }
+  .servico {
+    width: 96%;
+  }
+}

@@ -1,0 +1,28 @@
+.banner-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../imagens/empresa.jpg);
+    min-height: 54rem;
+    display: flex;
+}
+
+.empresa__sobre {
+    background-color: rgba(255,255,255,0.8);
+    max-width: 60rem;
+    margin: auto;
+}
+
+.empresa__titulo {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.empresa__info {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    text-align: justify;
+}
+
+.empresa__info:last-of-type {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}

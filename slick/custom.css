@@ -1,0 +1,88 @@
+.slick__section {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.slick__title {
+    margin: 0;
+    padding: 0 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.slick__container {
+    max-width: 80rem;
+    display: flex;
+    margin: 0 auto 2rem;
+}
+
+.slick__slider {
+    display: flex;
+    background: white;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 20px -4px rgba(0, 0, 0, 0.5);
+}
+
+.slick__slider img {
+    max-height: 16rem;
+    max-width: 16rem;
+}
+
+/* CSS BOTÃO SETA <> */
+.toggle {
+    background-color: #f0f0f0;
+    font-size: 3rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.toggle:first-of-type {
+    margin-left: 0;
+}
+
+.toggle:last-of-type {
+    margin-right: 0;
+}
+
+.toggle:focus {
+    outline: none;
+}
+
+.toggle:active,
+.toggle:hover {
+    color: #d2d2d2;
+}
+
+@media (max-width: 82rem) {
+    .slick__container {
+        max-width: 60rem;
+    }
+}
+
+@media (max-width: 61.5rem) {
+    .slick__container {
+        max-width: 42rem;
+    }
+}
+
+@media (max-width: 43rem) {
+    .slick__container {
+        max-width: 24rem;
+    }
+}
+
+@media (max-width: 25rem) {
+    .slick__container {
+        max-width: 20rem;
+    }
+    .slick__slider {
+        margin: 0.5rem;
+    }
+    .toggle {
+        margin: 0;
+    }
+}
